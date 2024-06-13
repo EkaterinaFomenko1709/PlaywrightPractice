@@ -1,0 +1,18 @@
+{
+  "name": "playwrightpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "_COMMENT": " !!! Scripts can be called from Terminal by teh command 'npm run <nameOfScript>' !!! ",
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "author": "Ekaterina",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "playwright": "^1.44.1"
+  }
+}
